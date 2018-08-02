@@ -21,4 +21,23 @@
   
 }
 
+.bg3{
+   background-image: url("https://i.pinimg.com/originals/c7/21/55/c72155e7c029ccfd207719b1d292e6a6.jpg");
+  /*height: 100%;*/
+  /*background-position: center; */
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  /*background-size: cover;*/
+  background-size:100%;
+}
+
+.bg3{
+   background-image: url("https://i.pinimg.com/originals/c7/21/55/c72155e7c029ccfd207719b1d292e6a6.jpg");
+  /*height: 100%;*/
+  /*background-position: center; */
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  /*background-size: cover;*/
+  background-size:100%;
+}
 body {font-family: "Courier";}
