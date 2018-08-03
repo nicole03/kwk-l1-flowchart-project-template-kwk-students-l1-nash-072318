@@ -9,18 +9,18 @@ get '/food_health' do
   erb:food_health
 end
 
-<<<<<<< HEAD
+
 get '/contact' do
   erb:contact
 end 
 
 get '/aboutus' do
   erb:aboutus
-=======
+
 end
 get '/quiz' do 
   erb :quiz
->>>>>>> 28ac5544d234a0f36e04767b07d7938e9c1239ad
+
 end 
 
 post '/quiz' do
