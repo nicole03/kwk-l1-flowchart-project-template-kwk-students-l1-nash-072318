@@ -38,7 +38,7 @@ post '/quiz' do
 
   
 
-  if @q1 + @q2 + @q3 + @q4 + @q5 + @q6 + @q7 < 9 
+  if @q1 + @q2 + @q3 + @q4 + @q5 + @q6 + @q7 < 8
 
     @food = "Strawberry Spinich Salad"
     "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/?internalSource=recipe%20hub&referringId=1058&referringContentType=recipe%20hub&clickId=cardslot%2023"
