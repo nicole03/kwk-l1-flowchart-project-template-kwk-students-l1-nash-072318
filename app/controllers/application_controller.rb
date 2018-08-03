@@ -17,6 +17,7 @@ end
 get '/aboutus' do
   erb:aboutus
 =======
+end
 get '/quiz' do 
   erb :quiz
 >>>>>>> 28ac5544d234a0f36e04767b07d7938e9c1239ad
