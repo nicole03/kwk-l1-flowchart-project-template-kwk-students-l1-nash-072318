@@ -9,12 +9,17 @@ get '/food_health' do
   erb:food_health
 end
 
+<<<<<<< HEAD
 get '/contact' do
   erb:contact
 end 
 
 get '/aboutus' do
   erb:aboutus
+=======
+get '/quiz' do 
+  erb :quiz
+>>>>>>> 28ac5544d234a0f36e04767b07d7938e9c1239ad
 end 
 
 post '/quiz' do
@@ -29,7 +34,11 @@ post '/quiz' do
   @q7 = params[:q7].to_i 
 
 
+<<<<<<< HEAD
   if @q1 + @q2 + @q3 + @q4 + @q5 + @q6 + @q7 < 8 
+=======
+  if @q1 + @q2 + @q3 + @q4 + @q5 + @q6 + @q7 < 9 
+>>>>>>> 28ac5544d234a0f36e04767b07d7938e9c1239ad
     @food = "Strawberry Spinich Salad"
     "https://www.allrecipes.com/recipe/14276/strawberry-spinach-salad-i/?internalSource=recipe%20hub&referringId=1058&referringContentType=recipe%20hub&clickId=cardslot%2023"
   elsif @q1 + @q2 + @q3 + @q4 + @q5 + @q6 + @q7 < 15
