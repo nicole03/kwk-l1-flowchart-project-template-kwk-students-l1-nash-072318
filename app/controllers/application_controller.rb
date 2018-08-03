@@ -35,7 +35,7 @@ post '/quiz' do
   @q7 = params[:q7].to_i 
 
 
-<<<<<<< HEAD
+
   if @q1 + @q2 + @q3 + @q4 + @q5 + @q6 + @q7 < 8 
 =======
   if @q1 + @q2 + @q3 + @q4 + @q5 + @q6 + @q7 < 9 
